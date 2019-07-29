@@ -13,7 +13,7 @@ WORKDIR /app/shippy-service-consignment
 # Copy the current code into our workdir
 COPY . .
 
-RUN go mod download
+#RUN go mod download
 
 # Build the binary, with a few flags which will allow
 # us to run this binary in Alpine. 
